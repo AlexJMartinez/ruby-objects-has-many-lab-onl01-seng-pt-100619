@@ -9,7 +9,7 @@ def initialize(title)
 end
 
 def self.all
-  @@all?
+  @@all
 end
 
 def author_name

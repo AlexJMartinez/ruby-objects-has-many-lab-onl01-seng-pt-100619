@@ -13,8 +13,9 @@ class Song
 
   def self.all?
     @@all?
+    binding.pry
   end
 
 
-binding.pry
+
 end

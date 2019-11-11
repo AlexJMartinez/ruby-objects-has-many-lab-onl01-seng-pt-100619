@@ -9,6 +9,7 @@ class Song
     @name = name
     @@all << self
   end
+  binding.pry
 
   def self.all?
     @@all?

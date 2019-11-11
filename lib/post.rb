@@ -8,7 +8,6 @@ def initialize(title)
   @@ll << self
 end
 
-
 def self.all?
   @@all?
 end
@@ -16,6 +15,5 @@ end
 def author_name
   self.author.name
 end
-
 
 end

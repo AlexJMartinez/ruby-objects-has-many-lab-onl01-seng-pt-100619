@@ -17,6 +17,7 @@ class Song
   if !artist.name
     return nil
   end
+  end
 
 
 end

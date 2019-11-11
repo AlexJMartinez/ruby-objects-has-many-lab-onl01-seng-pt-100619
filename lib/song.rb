@@ -8,8 +8,9 @@ class Song
   def initialize(name)
     @name = name
     @@all << self
+    
   end
-  binding.pry
+
 
   def self.all?
     @@all?

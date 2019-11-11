@@ -24,5 +24,4 @@ class Artist
 
   end
 #binding.pry
-
 end

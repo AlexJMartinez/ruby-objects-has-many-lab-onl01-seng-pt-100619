@@ -14,6 +14,15 @@ class Author
     #binding.pry
   end
 
+  def add_song_by_name(name)
+    song = Song.new(name)
+    add_song(song)
+  end
+
+  def add_post_by_title(title)
+    post = Post.new(title)
+    add_post(post)
+
 
 
 end
